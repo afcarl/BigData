@@ -1,5 +1,6 @@
 */*trial*.ipynb
 */*.ipynb_checkpoints
+*.pyc
 Data/at_the_rates.csv
 Data/hastags.csv
 Data/tweetDBtoy.txt
