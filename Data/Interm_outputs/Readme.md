@@ -1,0 +1,1 @@
+Contains any intermediate outputs we may produce (such as locations, pulled from tweets, subsets of tweets... etc...)
