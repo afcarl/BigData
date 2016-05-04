@@ -26,6 +26,6 @@ if __name__=='__main__':
 
     data = pd.read_csv(sys.argv[1], usecols=['id' , ' "tweet"'])
     tweet_toponymer(data,functs[sys.argv[2]])
-    data.to_csv(sys.argv[3])
+    data.to_csv(sys.argv[3], index=False)
     print ("Successful. here's the first ouput:")
     print (data.head(1))
