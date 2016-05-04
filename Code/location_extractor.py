@@ -94,7 +94,6 @@ def location_extractor(tweet):
                 loc_word_flag=False
                 continue
 
-=======
 def location_extractor(tweet):
     symbol_list = [',','.','<','>','/','?',':',';','[',']','{','}','|','\\','=','+','_',')','(','*','^','%','$','#','@','!']
     #note - I delibrately omitted '-' and '&' from this list, because they often form part of the place names. but you can put them in again.
