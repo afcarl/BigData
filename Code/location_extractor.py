@@ -190,5 +190,4 @@ def location_extractor(tweet):
                 loc_word_flag=False
                 continue
 
->>>>>>> f845cf6db38cbc08153499a61896c78822320d6b
     return locations
